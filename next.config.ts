@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // output: 'export', // Disabled to allow Image Optimization and Server Actions
+  output: 'export',
+  basePath: '/personal-profile',
+  assetPrefix: '/personal-profile',
   images: {
-    // unoptimized: true, // Disabled to allow Next.js built-in optimization
+    unoptimized: true,
   },
 };
 
