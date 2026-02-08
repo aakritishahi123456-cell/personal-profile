@@ -1,9 +1,7 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/personal-profile',
-  assetPrefix: '/personal-profile',
   images: {
     unoptimized: true,
   },
